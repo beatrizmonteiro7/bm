@@ -57,12 +57,7 @@ const newCompany = forwardRef(function NewCompany(props: INewCompanyProps, ref: 
 
     const [isEditMode, setIsEditMode] = useState(false);
     const [editId, setEditId] = useState<number | null>(null);
-    
-    const edicao = 
-    
-    console.log(props.mockData);
-    
-    
+        
     //Função para limpar os Estados, caso o usuário feche o modal
     function clearFields() {
         setStates((prev) => ({
